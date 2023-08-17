@@ -17,5 +17,5 @@
     "mounts": [
         "source=//e/data,target=/mnt/data,type=bind,consistency=cached"
     ],
-    "runArgs": ["--env-file",".devcontainer/devcontainer.env"]
+    "runArgs": ["--env-file",".devcontainer/devcontainer.env","--gpus","all"]
 }
